@@ -1,6 +1,37 @@
-{ color:grey;
+<style>
+{ color:black;
     text-align: center;
-    font-size: italic;
-    background color:yellow;
-    opacity:.6
+    font-size: 150px;
+    background color:white;
+    opacity:.5
 }
+
+section div {font-style: italic;}
+        section li {
+         list-style: none;
+        }
+        a:link, a:visited {
+        text-decoration: none;
+        background-color: white;
+        border: 3px;
+        color:blue;
+        display: block;
+        width:400px;
+        text-align:center;
+        margin-bottom: 1px;
+    }
+    a:hover, a:active { background-color:blue; color:white;
+    }
+    section li:nth-child(3) {font-size:50px;}
+    section div:nth-child(even) {background-color:brown;}
+    section h2 {color:brown;}
+
+       body {text-align: center; color:yellow; font-size:30px; font-weight:bold; background-color:red;}
+        .grey {text-align: center; font-size: 15px; background-color:grey;}
+       	.blue {text-align: center; font-size: 20px; background-color:blue;}
+       	.purple {text-align: center; font-size: 25px; background-color:purple;}
+       	.orange {text-align: center; font-size: 30px; background-color:orange;
+       	}
+       	/* all p AND h2 elements */
+       	p, h2 {color:green;}
+       	</style>
